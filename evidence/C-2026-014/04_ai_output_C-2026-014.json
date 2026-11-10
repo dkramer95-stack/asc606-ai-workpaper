@@ -1,0 +1,114 @@
+{
+  "contract_id": "C-2026-014",
+  "customer": "Blue Harbor Logistics, Inc.",
+  "document": {
+    "file": "01_contract_C-2026-014.pdf",
+    "sha256": "8f1c4d2e9b7a6c5d3e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d",
+    "pages": 12,
+    "executed": "2026-07-01",
+    "filed_by": "Contract Operations",
+    "intake_checklist": "complete"
+  },
+  "model": {
+    "application": "ContractLens 2.4.1",
+    "model_id": "nlx-4o-2026-05",
+    "prompt_version": "v3.2",
+    "schema_version": "v3.2",
+    "temperature": 0
+  },
+  "run": {
+    "timestamp": "2026-10-06T14:22:31Z",
+    "operator": "svc_contractlens",
+    "document_hash": "sha256:8f1c...a7d2",
+    "output_hash": "sha256:c41e...9b06",
+    "run_id": "CL-20261006-00417"
+  },
+  "fields": {
+    "contract_term": {
+      "value": "36 months, 2026-07-01 to 2029-06-30",
+      "citation": "Sec. 3.1, p. 2",
+      "span": [1841, 1912],
+      "confidence": 0.99
+    },
+    "renewal_terms": {
+      "value": "Automatic successive 12-month Renewal Terms unless 60 days' notice of non-renewal",
+      "citation": "Sec. 3.2, p. 2",
+      "span": [2117, 2260],
+      "confidence": 0.98
+    },
+    "renewal_pricing": {
+      "value": "Renewal Fee = 95% of then-current List Price; 5% reduction; applies to every Renewal Term",
+      "citation": "Sec. 5.2, p. 4; Sec. 5.3, p. 4",
+      "span": [3108, 3389],
+      "confidence": 0.98
+    },
+    "transaction_price": {
+      "value": 1440000,
+      "citation": "Order Form No. 1, p. 6",
+      "span": [9021, 9098],
+      "confidence": 0.99
+    },
+    "billing_terms": {
+      "value": "Annual prepayment; first invoice $480,000 on the Effective Date",
+      "citation": "Order Form No. 1, p. 6",
+      "span": [9187, 9270],
+      "confidence": 0.97
+    },
+    "performance_obligations": {
+      "value": ["PO-1 Hosted platform subscription, single configuration"],
+      "citation": "Order Form No. 1, p. 6; Sec. 2.1, p. 1",
+      "span": [8640, 8712],
+      "confidence": 0.95
+    },
+    "material_right": {
+      "value": false,
+      "citation": "Sec. 5.2, p. 4",
+      "span": [3108, 3201],
+      "confidence": 0.86,
+      "basis": "Renewal is priced at 95% of then-current List Price. No separate discount or option was identified."
+    },
+    "termination": {
+      "value": "Termination for uncured material breach on 30 days' notice",
+      "citation": "Sec. 3.3, p. 2",
+      "span": [2274, 2350],
+      "confidence": 0.97
+    },
+    "ssp_source": {
+      "value": "2026 SSP table, hosted platform configuration B",
+      "citation": "Internal rate card lookup, version 2026.1",
+      "span": null,
+      "confidence": 0.92
+    },
+    "non_standard_terms": {
+      "value": [],
+      "citation": null,
+      "span": null,
+      "confidence": 0.90
+    }
+  },
+  "proposed_conclusion": {
+    "performance_obligations": 1,
+    "transaction_price": 1440000,
+    "allocation": [
+      {
+        "po_id": "PO-1",
+        "description": "Hosted platform subscription",
+        "ssp": 1440000,
+        "allocated": 1440000,
+        "recognition": "Ratable over 36 months from 2026-07-01"
+      }
+    ],
+    "monthly_revenue": 40000,
+    "fy2026_revenue": 240000,
+    "material_right": false,
+    "principal": true,
+    "notes": "No variable consideration. No significant financing component. Renewal option treated as a renewal at market."
+  },
+  "flags": {
+    "missing_information": [],
+    "suspicious_content": false,
+    "low_confidence": false,
+    "review_required": "second_level",
+    "review_triggers": ["tcv_over_250k", "renewal_option_present"]
+  }
+}

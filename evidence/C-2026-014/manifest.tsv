@@ -1,0 +1,6 @@
+file	role	evidence_id	bytes	sha256	retention
+04_ai_output_C-2026-014.json	Model output	EV-03	3551	fcd57267000673c4412523108cdb7a63cdd53ddde432236c5c3b9e871b3a0ca3	7 years from FY2026 close
+05_calc_C-2026-014.xlsx	Independent calculation	EV-04	6964	c30725d40671a4dd4ca72718df55ed5f4dd76743432e41d8d94e48f508f67b31	7 years from FY2026 close
+06_review_C-2026-014.md	Reviewer annotation and sign-off	EV-05	3601	38f9863d10adfa02d644c4063ae39b7524c0af38df98d28dafb2742a5f9d8cfb	7 years from FY2026 close
+07_sl2_C-2026-014.md	Second-level review memorandum	EV-06	3696	a82dfed6887d3d9f3f8cefd23124f359f6df14d777fff528c015748654cf458f	7 years from FY2026 close
+README.md	Pack guide	-	3412	4cbf46a27f1021c3b3efb2f7e76343d22472667c6ce2bdf04a47805b643b8f14	7 years from FY2026 close
